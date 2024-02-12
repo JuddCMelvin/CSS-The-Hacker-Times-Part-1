@@ -6,20 +6,28 @@ body {
 h1 {
     text-align: center; 
     font-family: Abril Fatface; 
-    font-size: 4em; 
+    font-size: 3.5em; 
 }
 
-ul li {
+li {
     display: inline-block; 
-    text-decoration:none; 
+    font-size: 16px; 
+    padding: 0px 12px; 
+    margin: 0; 
 }
 .newspaper-container {
     width: 700px; 
     border-radius: 20px; 
     box-shadow: #ddd; 
     background-color: white; 
-    /* padding: 40px; */
+    padding: 40px;
 }
-ul {
-    list-style-type: none;
+a {
+    text-decoration:none; 
+    font-size: 10px; 
+    color: #777; 
+}
+nav {
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
 }
