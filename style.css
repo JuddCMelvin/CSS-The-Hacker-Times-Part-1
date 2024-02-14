@@ -31,3 +31,9 @@ nav {
     border-top: 1px solid #777;
     border-bottom: 1px solid #777;
 }
+img {
+    width: 100%; 
+}
+p {
+    text-align: justify; 
+}
